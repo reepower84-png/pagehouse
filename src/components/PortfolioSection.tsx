@@ -86,6 +86,16 @@ const portfolios = [
     tags: [],
     link: 'https://aura-flower.vercel.app/',
   },
+  {
+    id: 9,
+    title: '인트로페이지',
+    category: '기타',
+    description: '인트로페이지',
+    image: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+    isRealImage: false,
+    tags: [],
+    link: 'https://bskorea.vercel.app/',
+  },
 ];
 
 export default function PortfolioSection() {
