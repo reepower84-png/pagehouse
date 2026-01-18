@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 
-const categories = ['전체', '부동산', '공간디자인', '단체', '브랜드', '기타'];
+const categories = ['전체', '부동산', '공간디자인', '단체', '기타'];
 
 const portfolios = [
   {
@@ -38,8 +38,8 @@ const portfolios = [
   },
   {
     id: 4,
-    title: '사무용 가구 브랜드',
-    category: '브랜드',
+    title: '사무용 가구',
+    category: '기타',
     description: '브랜드 인지도 200% 상승',
     image: '/20260111_193257.jpg',
     isRealImage: true,
