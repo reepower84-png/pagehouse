@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, MousePointer2, TrendingUp, Zap } from 'lucide-react';
+import { ArrowRight, MousePointer2, TrendingUp, Zap, CircleDollarSign } from 'lucide-react';
 
 export default function HeroSection() {
   const scrollToContact = () => {
@@ -60,12 +60,24 @@ export default function HeroSection() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-6 leading-relaxed">
             단순한 웹페이지가 아닙니다. 방문자를 고객으로 전환시키는
             <br className="hidden md:block" />
             <strong className="text-white">전략적 랜딩페이지</strong>를 제작해
             드립니다.
           </p>
+
+          {/* Price Promise */}
+          <div className="mb-12">
+            <div className="inline-flex items-center gap-4 px-8 py-4 border border-cyan-400 rounded-lg bg-transparent relative overflow-hidden group hover:scale-105 transition-transform duration-300">
+              <div className="absolute inset-0 bg-cyan-500/10" />
+              <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(34,211,238,0.3)]" />
+              <CircleDollarSign className="w-8 h-8 text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.8)] relative z-10" />
+              <span className="text-xl md:text-2xl font-bold text-cyan-300 drop-shadow-[0_0_10px_rgba(34,211,238,0.8)] tracking-wide relative z-10">
+                합리적인 가격을 약속드립니다.
+              </span>
+            </div>
+          </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
