@@ -57,9 +57,9 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           {/* Company Info */}
           <div className="text-sm text-gray-500 space-y-2 mb-6">
-            <p>상호: 제이코리아 | 대표: 이주영</p>
-            <p>사업자등록번호: 278-30-01540</p>
-            <p>주소: 인천광역시 계양구 오조산로57번길 15, 7층 7106호</p>
+            <p>상호: 효시스템 부천직영점 | 대표: 이주영</p>
+            <p>사업자등록번호: 290-62-00902</p>
+            <p>주소: 경기도 부천시 원미구 송내대로265번길 23, 201-G11</p>
           </div>
 
           {/* Copyright */}
