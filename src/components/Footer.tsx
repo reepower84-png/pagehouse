@@ -57,9 +57,9 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           {/* Company Info */}
           <div className="text-sm text-gray-500 space-y-2 mb-6">
-            <p>상호: 효시스템 부천직영점 | 대표: 이주영</p>
-            <p>사업자등록번호: 290-62-00902</p>
-            <p>주소: 경기도 부천시 원미구 송내대로265번길 23, 201-G11</p>
+            <p>상호: 효시스템 | 대표: 이주영</p>
+            <p>사업자등록번호: 556-56-00868</p>
+            <p>주소: 인천광역시 계양구 계산새로87번길 5, 6층 602호</p>
           </div>
 
           {/* Copyright */}
