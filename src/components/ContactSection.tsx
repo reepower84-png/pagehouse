@@ -210,6 +210,16 @@ export default function ContactSection() {
                   )}
                 </button>
 
+                <a
+                  href="http://pf.kakao.com/_cRBxon/chat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-[#FEE500] text-[#191919] rounded-xl font-semibold hover:bg-[#FDD835] transition-all duration-300"
+                >
+                  카카오톡으로 상담하기
+                  <MessageCircle className="w-5 h-5" />
+                </a>
+
                 <p className="text-center text-sm text-gray-500">
                   제출하신 정보는 상담 목적으로만 사용됩니다.
                 </p>
