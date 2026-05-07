@@ -130,7 +130,7 @@ const portfolios = [
     id: 13,
     title: '수원 대방 디에트르',
     category: '부동산',
-    description: '문의량 310% 상승',
+    description: '',
     image: '/portfolio_suwon_dietre.jpg',
     isRealImage: true,
     tags: [],
@@ -233,9 +233,11 @@ export default function PortfolioSection() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
                   {portfolio.title}
                 </h3>
-                <p className="text-indigo-600 font-semibold mb-4">
-                  {portfolio.description}
-                </p>
+                {portfolio.description && (
+                  <p className="text-indigo-600 font-semibold mb-4">
+                    {portfolio.description}
+                  </p>
+                )}
                 <div className="flex flex-wrap gap-2">
                   {portfolio.tags.map((tag, index) => (
                     <span
