@@ -1,3 +1,4 @@
+import { backupFetch } from "./inquiry-backup";
 export async function sendDiscordNotification(
   name: string,
   phone: string,
@@ -44,7 +45,7 @@ export async function sendDiscordNotification(
   };
 
   try {
-    const response = await fetch(webhookUrl, {
+    const response = await backupFetch(webhookUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
